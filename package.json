@@ -1,0 +1,17 @@
+{
+  "name": "telegram-signals",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/user.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "input": "^1.0.1",
+    "telegram": "^1.10.8"
+  }
+}
