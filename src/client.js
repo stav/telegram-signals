@@ -7,5 +7,5 @@ module.exports = function (botOrUser) {
     auth.apiId,
     auth.apiHash,
     auth.config
-  );
+  )
 }

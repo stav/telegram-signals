@@ -1,12 +1,9 @@
 // https://gram.js.org/getting-started/authorization#logging-in-as-a-user
 
 const input = require('input');
-const dotenv = require('dotenv');
 
 const Client = require('./client');
 const Listen = require('./listen');
-
-dotenv.config(); // loads .env into process.env
 
 (async () => {
 

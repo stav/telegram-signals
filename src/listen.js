@@ -33,8 +33,10 @@ module.exports = async function (client) {
 
   const me = await client.getMe();
   const username = me.username ? `(${me.username})` : ''
-  console.log('Logged in as', me.firstName, username)
+  // const user = await client.getEntity(algo);
+  console.log('Logged in as', me.id, me.firstName, username, client.session.save())
+
   client.addEventHandler(handler, new NewMessage({ chats }));
-  console.info('Listening', client.session.save(), chats);
+  console.info('Listening', chats.length, chats);
 
 }

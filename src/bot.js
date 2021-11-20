@@ -1,12 +1,8 @@
 // https://gram.js.org/getting-started/authorization#logging-in-as-a-bot
 
-const dotenv = require('dotenv');
-
 const Client = require('./client');
 const Listen = require('./listen');
 const auth = require('./auth');
-
-dotenv.config(); // loads .env into process.env
 
 (async () => {
 

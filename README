@@ -1,0 +1,14 @@
+README
+
+Example .env
+
+    APIID=123
+    APIHASH="abc"
+    TOKEN="456:def"
+    USERSESSION="reallylongstring"
+    BOTSESSION=""
+    CHATS="123 456 -100789"
+
+Usage
+
+    $ node src/user.js
